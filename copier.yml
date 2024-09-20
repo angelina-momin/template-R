@@ -9,8 +9,8 @@ _message_before_copy: |
 _message_after_copy: |
   Your project "{{ software_name }}" has been created successfully!
 _exclude:
-    - ".git/"
-    - ".github/"
+    - ".git"
+    - ".github"
     - ".gitignore"
     - ".gitmodules"
     - "custom.yml"
