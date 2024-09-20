@@ -8,6 +8,12 @@ _message_before_copy: |
   Thanks for using SS NES software project template 
 _message_after_copy: |
   Your project "{{ software_name }}" has been created successfully!
+_exclude:
+    - .git/
+    - .github/
+    - .gitignore
+    - .gitmodules
+    - custom.yml
 
 software_name:
     type: str
