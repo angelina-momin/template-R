@@ -86,3 +86,5 @@ documentation_type:
         - developer
         - user & developer
     when: "{{ documentation == True }}"
+
+!include templates/{{ programming_language | lower }}/custom.yml
