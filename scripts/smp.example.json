@@ -1,0 +1,12 @@
+{
+    "smp": "my-smp",
+    "content": {
+        "software_name": "My Research Software",
+        "community": true,
+        "owner": "John Doe",
+        "copyright_holder": "NES University",
+        "software_license": "Apache Software License",
+        "software_purpose": "We want to make research software in natural science and engineering better.",
+        "package_name": "better_research_software"
+    }
+}

@@ -1,0 +1,42 @@
+software_name:  ${ software_name }
+release_date: ${ release_date }
+smp_version:  ${ smp_version }
+authors:  ${ authors }
+purpose:  ${ purpose }
+research_project_context: ${ research_project_context }
+ownership:  ${ ownership }
+version_control:  ${ version_control }
+% if public or reuse:
+public: ${public}
+reuse: ${reuse}
+repository: ${ repository }
+% endif
+% if public:
+software_license: ${ software_license }
+citation: ${ citation }
+% endif
+% if public or reuse:
+user_documentation: ${ user_documentation }
+% endif
+% if reuse :
+developer_documentation:  ${ developer_documentation }
+% endif
+% if reuse or multi_user or public:
+deployment_documentation: ${ deployment_documentation }
+% endif
+% if reuse or multi_user or community or public:
+testing:  ${ testing }
+% endif
+% if reuse or multi_user:
+quality:  ${ quality }
+% endif
+% if multi_user:
+packaging:  ${ packaging }
+maintenance:  ${ maintenance }
+% endif
+% if community:
+sustainability: ${ sustainability }
+support:  ${ support }
+% endif
+risk_analysis:  ${ risk_analysis }
+data_management_plan: ${ data_management_plan }
