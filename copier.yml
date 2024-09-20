@@ -80,7 +80,7 @@ programming_language:
   default: submodule-python
   choices:
     - submodule-python
-    - submodule-r
+    - template-R
   help: Which is the main programing language for developing "{{ software_name }}"?
 
 package_name:
