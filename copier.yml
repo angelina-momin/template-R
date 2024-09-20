@@ -98,5 +98,7 @@ documentation_type:
     when: "{{ documentation == True }}"
 
 ---
+# Uncoment the line below to include custome questions
+# Add custom questions to custom.yml
 
-!include custom.yml
+# !include custom.yml
