@@ -89,4 +89,4 @@ documentation_type:
 
 ---
 
-!include templates/{{ programming_language | lower }}/custom.yml
+!include templates/{{ programming_language | lower }}/custom.yaml
