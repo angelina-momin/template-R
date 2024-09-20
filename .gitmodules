@@ -1,3 +1,6 @@
 [submodule "submodule-python"]
 	path = submodule-python
 	url = https://github.com/manuGil/submodule-python.git
+[submodule "submodule-r"]
+	path = submodule-r
+	url = https://github.com/manuGil/submodule-r.git
