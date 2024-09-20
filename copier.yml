@@ -17,7 +17,7 @@ _exclude:
 
 software_name:
     type: str
-    help: What's the name of your software?
+    help: What's the name of your R software?
     default: Awesome
 
 community:
@@ -107,4 +107,4 @@ documentation_type:
 # Uncoment the line below to include custome questions
 # Add custom questions to custom.yml
 
-# !include custom.yml
+!include custom.yml

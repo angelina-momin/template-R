@@ -1,2 +1,6 @@
 # Include template/language specific questions for 
 # the user to answer (optional)
+software_name:
+    type: str
+    help: What's the name of your software?
+    default: Awesome
