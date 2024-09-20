@@ -87,4 +87,6 @@ documentation_type:
         - user & developer
     when: "{{ documentation == True }}"
 
-!include templates/submodule-r/custom.yml
+---
+
+!include templates/{{ programming_language | lower }}/custom.yml
