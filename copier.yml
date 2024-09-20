@@ -3,7 +3,7 @@
 #   block_end_string: '%]'
 #   block_start_string: '[%'
 
-_subdirectory: "template/{{ programming_language | lower }}"
+_subdirectory: "templates/{{ programming_language | lower }}"
 _message_before_copy: |
   Thanks for using SS NES software project template 
 _message_after_copy: |
@@ -61,10 +61,10 @@ software_purpose:
 
 programming_language:
   type: str
-  default: Python
+  default: submodule-python
   choices:
-    - Python
-    - R
+    - submodule-python
+    - submodule-r
   help: Which is the main programing language for developing "{{ software_name }}"?
 
 package_name:
